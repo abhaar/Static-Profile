@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import photo from "@assets/bg_1766894877019.jpg";
 
 export function Hero() {
   return (
@@ -26,7 +27,7 @@ export function Hero() {
         >
           <div className="aspect-square rounded-2xl overflow-hidden bg-muted border border-border shadow-lg">
             <img 
-              src="/attached_assets/bg_1766894877019.jpg" 
+              src={photo} 
               alt="Abhaar Gupta" 
               className="w-full h-full object-cover"
             />
