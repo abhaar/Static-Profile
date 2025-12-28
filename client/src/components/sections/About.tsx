@@ -16,15 +16,7 @@ export function About() {
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
           </div>
 
-          <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
-             <div className="aspect-3/4 bg-muted rounded-xl overflow-hidden shadow-lg relative">
-                {/* Placeholder for personal photo */}
-                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-white">
-                  <span className="text-6xl font-serif opacity-20">Me</span>
-                </div>
-             </div>
-             
-             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                <p>
                  Hello! I'm a passionate researcher and developer based in San Francisco. With a background in Computer Science and Cognitive Science, I'm interested in how we can make AI systems more interpretable and aligned with human values.
                </p>
@@ -52,7 +44,6 @@ export function About() {
                    </ul>
                  </div>
                </div>
-             </div>
           </div>
         </motion.div>
       </div>
