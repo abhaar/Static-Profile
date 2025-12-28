@@ -39,11 +39,13 @@ export function ExperienceHorizontalAlt() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex flex-col items-center flex-1 group min-w-max md:min-w-fit"
+                  // className="flex flex-col items-center flex-1 group min-w-max md:min-w-fit"
+                  className="flex flex-col items-center justify-center flex-1 group min-w-max md:min-w-fit relative"
                 >
                   {exp.position === "above" ? (
                     <>
-                      <div className="text-center mb-6 md:mb-8">
+                      {/* <div className="text-center mb-6 md:mb-8"> */}
+                      <div className="text-center mb-6 md:mb-8 absolute bottom-[calc(50%+0.5rem)] md:bottom-[calc(50%+0.75rem)]">
                         <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm max-w-[80px] mx-auto">
                           {exp.company}
                         </h3>
@@ -54,7 +56,8 @@ export function ExperienceHorizontalAlt() {
                   ) : (
                     <>
                       <div className="w-3 h-3 md:w-4 md:h-4 rounded-full bg-primary border-2 md:border-4 border-background group-hover:w-5 md:group-hover:w-6 group-hover:h-5 md:group-hover:h-6 transition-all duration-300" />
-                      <div className="text-center mt-6 md:mt-8">
+                      {/* <div className="text-center mt-6 md:mt-8"> */}
+                      <div className="text-center mt-6 md:mt-8 absolute top-[calc(50%+0.5rem)] md:top-[calc(50%+0.75rem)]">
                         <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm max-w-[80px] mx-auto">
                           {exp.company}
                         </h3>
