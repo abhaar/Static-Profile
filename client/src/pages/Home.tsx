@@ -1,7 +1,7 @@
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
-import { ExperienceHorizontalAlt } from "@/components/sections/ExperienceHorizontalAlt";
+import { ExperienceHorizontalDuration } from "@/components/sections/ExperienceHorizontalDuration";
 import { Publications } from "@/components/sections/Publications";
 import { Contact } from "@/components/sections/Contact";
 
@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex-1 lg:ml-64 w-full transition-all duration-300">
         <Hero />
         <About />
-        <ExperienceHorizontalAlt />
+        <ExperienceHorizontalDuration />
         <Publications />
         <Contact />
       </main>
