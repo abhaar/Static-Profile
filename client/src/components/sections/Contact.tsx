@@ -33,8 +33,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium text-foreground">Email</h4>
-                  <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    hello@example.com
+                  <a href="mailto:abhaar@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    abhaar@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -51,7 +51,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium text-foreground">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">New York, NY</p>
                 </div>
               </motion.div>
             </div>
@@ -65,14 +65,11 @@ export function Contact() {
             >
               <h4 className="font-serif font-bold text-xl mb-6">Connect With Me</h4>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary/90 transition-colors">
+                <a href="https://www.github.com/abhaar" className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary/90 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary/90 transition-colors">
+                <a href="https://www.linkedin.com/in/abhaar" className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary/90 transition-colors">
                   <Linkedin className="w-5 h-5" />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary/90 transition-colors">
-                  <Twitter className="w-5 h-5" />
                 </a>
               </div>
             </motion.div>
