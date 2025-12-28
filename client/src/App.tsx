@@ -9,7 +9,7 @@ import Home from "@/pages/Home";
 function Router() {
   return (
     <Switch>
-      <Route path="/abhaar" component={Home} />
+      <Route path="/" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );
