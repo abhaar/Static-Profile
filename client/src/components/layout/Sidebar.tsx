@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { User, BookOpen, Mail, Home } from "lucide-react";
+import { User, BookOpen, Mail, Home, Briefcase } from "lucide-react";
 
 export function Sidebar() {
   const [location] = useLocation();
@@ -8,6 +8,7 @@ export function Sidebar() {
   const links = [
     { href: "#hero", label: "Home", icon: Home },
     { href: "#about", label: "About Me", icon: User },
+    { href: "#experience", label: "Experience", icon: Briefcase },
     { href: "#publications", label: "Publications", icon: BookOpen },
     { href: "#contact", label: "Contact Me", icon: Mail },
   ];
