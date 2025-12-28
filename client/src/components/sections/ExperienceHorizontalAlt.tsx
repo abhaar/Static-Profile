@@ -43,8 +43,8 @@ export function ExperienceHorizontalAlt() {
                 >
                   {exp.position === "above" ? (
                     <>
-                      <div className="text-center mb-3 md:mb-6">
-                        <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm">
+                      <div className="text-center mb-6 md:mb-8">
+                        <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm max-w-[80px] mx-auto">
                           {exp.company}
                         </h3>
                         <p className="text-xs text-muted-foreground mt-1">{exp.year}</p>
@@ -54,8 +54,8 @@ export function ExperienceHorizontalAlt() {
                   ) : (
                     <>
                       <div className="w-3 h-3 md:w-4 md:h-4 rounded-full bg-primary border-2 md:border-4 border-background group-hover:w-5 md:group-hover:w-6 group-hover:h-5 md:group-hover:h-6 transition-all duration-300" />
-                      <div className="text-center mt-3 md:mt-6">
-                        <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm">
+                      <div className="text-center mt-6 md:mt-8">
+                        <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors text-xs md:text-sm max-w-[80px] mx-auto">
                           {exp.company}
                         </h3>
                         <p className="text-xs text-muted-foreground mt-1">{exp.year}</p>
