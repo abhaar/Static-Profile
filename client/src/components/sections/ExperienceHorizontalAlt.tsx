@@ -2,12 +2,13 @@ import { motion } from "framer-motion";
 
 export function ExperienceHorizontalAlt() {
   const experiences = [
-    { company: "Startup XYZ", year: "2017", position: "above" },
-    { company: "Amazon", year: "2018", position: "below" },
-    { company: "Microsoft", year: "2019", position: "above" },
-    { company: "Apple", year: "2020", position: "below" },
-    { company: "Meta", year: "2021", position: "above" },
-    { company: "Google", year: "2023", position: "below" }
+    { company: "Samsung", year: "2010", position: "above" },
+    { company: "Trexquant Investments", year: "2015", position: "below" },
+    { company: "Goldman Sachs", year: "2016", position: "above" },
+    { company: "Axoni", year: "2018", position: "below" },
+    { company: "Gemini", year: "2021", position: "above" },
+    { company: "Bastion Platforms", year: "2024", position: "below" },
+    { company: "Anchorage Digital", year: "2025", position: "above" }
   ];
 
   return (

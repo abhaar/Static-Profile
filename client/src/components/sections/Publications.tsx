@@ -6,25 +6,25 @@ import { ExternalLink } from "lucide-react";
 export function Publications() {
   const publications = [
     {
-      title: "Interpretable Machine Learning for Medical Diagnosis",
-      venue: "NeurIPS 2024",
-      date: "December 2024",
-      description: "A novel approach to visualizing attention mechanisms in transformer models applied to medical imaging.",
-      tags: ["ML", "Healthcare", "Interpretability"]
+      title: "Cross-partition calls in partitioned, tamper-evident data stores",
+      venue: "US Patent US11556658B2",
+      date: "January 2023",
+      description: "A novel approach for sharing data between blockchains.",
+      tags: ["Web3", "EVM", "Blockchain", "Axcore"]
     },
     {
-      title: "Aligning Large Language Models with Human Preferences",
-      venue: "ICML 2024",
-      date: "July 2024",
-      description: "Proposed a reinforcement learning framework that significantly improves model alignment with diverse human feedback.",
-      tags: ["LLMs", "RLHF", "Alignment"]
+      title: "The Dawn of Digital Fort Knoxes: How Multisig and MPC Are Revolutionizing Crypto Security.",
+      venue: "Hackernoon",
+      date: "June 2025",
+      description: "Multisig and MPC Wallets.",
+      tags: ["Web3", "Wallets", "Cryptography"]
     },
     {
-      title: "The Ethics of Autonomous Systems",
-      venue: "CHI 2023",
-      date: "April 2023",
-      description: "A qualitative study on user trust and accountability in autonomous vehicle decision making.",
-      tags: ["HCI", "Ethics", "User Study"]
+      title: "How I Built a Go MCP Server to Query Crypto Balances in VSCode.",
+      venue: "Hackernoon",
+      date: "September 2025",
+      description: "How to build an MCP server using Go SDK.",
+      tags: ["AI", "MCP", "Go"]
     }
   ];
 
@@ -41,7 +41,7 @@ export function Publications() {
           <div className="space-y-4 text-center">
             <h2 className="text-4xl font-serif font-bold">Selected Publications</h2>
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
-            <p className="text-muted-foreground">A collection of my recent research work and conference papers.</p>
+            <p className="text-muted-foreground">A collection of my recent work and publications.</p>
           </div>
 
           <div className="space-y-6">
