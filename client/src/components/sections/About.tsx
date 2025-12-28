@@ -18,29 +18,26 @@ export function About() {
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                <p>
-                 Hello! I'm a passionate researcher and developer based in San Francisco. With a background in Computer Science and Cognitive Science, I'm interested in how we can make AI systems more interpretable and aligned with human values.
+                Hello! I'm a passionate software developer based in New York. I have over 10 years of professional experience with 8 years in the web3 industry.
                </p>
                <p>
-                 Currently, I'm pursuing my PhD at Stanford University, working on large language model alignment. Before this, I spent two years as a Research Engineer at DeepMind.
-               </p>
-               <p>
-                 When I'm not coding or writing papers, you can find me hiking the Marin Headlands, brewing the perfect pour-over coffee, or reading sci-fi novels.
+                Currently, I'm employed as a web3 developer for Anchorage Digital.
                </p>
                
                <div className="grid grid-cols-2 gap-4 pt-6">
                  <div>
                    <h4 className="font-bold text-foreground block mb-2">Education</h4>
                    <ul className="text-sm space-y-2">
-                     <li>PhD Computer Science, Stanford</li>
-                     <li>BS Computer Science, MIT</li>
+                     <li>MS Electrical Engineering, Columbia University, USA</li>
+                     <li>BTech Electrical Engineering, NIT Kurukshetra, India</li>
                    </ul>
                  </div>
                  <div>
                    <h4 className="font-bold text-foreground block mb-2">Interests</h4>
                    <ul className="text-sm space-y-2">
-                     <li>AI Alignment</li>
-                     <li>Human-Computer Interaction</li>
-                     <li>Data Visualization</li>
+                     <li>Web3</li>
+                     <li>Distributed Systems</li>
+                     <li>Blockchain Platforms</li>
                    </ul>
                  </div>
                </div>
