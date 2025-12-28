@@ -12,7 +12,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="space-y-4"
         >
-          <h1 className="text-7xl lg:text-8xl font-serif font-bold leading-tight text-foreground">Abhaar Gupta</h1>
+          <h1 className="lg:text-8xl font-serif font-bold text-foreground text-[68px]">Abhaar Gupta</h1>
           <p className="text-2xl lg:text-3xl text-muted-foreground font-light">
             Software Engineer
           </p>
