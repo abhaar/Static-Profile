@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-secondary/30">
+    <section id="about" className="py-24 bg-gradient-to-br from-secondary/15 via-background to-background">
       <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

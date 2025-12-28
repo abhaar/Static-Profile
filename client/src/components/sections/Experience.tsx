@@ -49,7 +49,7 @@ export function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-24">
+    <section id="experience" className="py-24 bg-gradient-to-br from-accent/10 via-background to-secondary/5">
       <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -37,7 +37,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 bg-secondary/30">
+    <section id="contact" className="py-24 bg-gradient-to-br from-secondary/15 via-background to-background">
       <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
