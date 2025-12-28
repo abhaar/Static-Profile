@@ -24,8 +24,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="hidden lg:block"
         >
-          <div className="aspect-square rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center shadow-lg">
-            <span className="text-muted-foreground text-lg font-light">Your Photo</span>
+          <div className="aspect-square rounded-2xl overflow-hidden bg-muted border border-border shadow-lg">
+            <img 
+              src="/attached_assets/bg_1766894877019.jpg" 
+              alt="Abhaar Gupta" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </motion.div>
       </div>
